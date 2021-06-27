@@ -40,12 +40,12 @@ public class DateTest {
 		System.out.println(month + "월의 마지막 날은 " + lastDay + "일 입니다.");
 		
 		// 2021. 06. 15은 무슨 요일?
-		c.set(2018, 4, 27); // month는 0부터!
+		c.set(2021, 6, 15); // month는 0부터!
 		day = c.get(Calendar.DAY_OF_WEEK);
 		System.out.println("2021. 06. 15은 " + dayArr[day]);
 		
 		// 2021. 11. 22는 무슨 요일?
-		c.set(2019, 0, 1);
+		c.set(2021, 11, 22);
 		day = c.get(Calendar.DAY_OF_WEEK);
 		System.out.println("2021. 11. 22은 " + dayArr[day]);
 		

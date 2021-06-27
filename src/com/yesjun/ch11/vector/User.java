@@ -11,8 +11,6 @@ package com.yesjun.ch11.vector;
  * 	: 동기화가 필요하다면, sychronizedList를 활용
  */
 
-import java.util.Scanner;
-
 public class User {
     private int num;
     String name;
